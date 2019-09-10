@@ -21,8 +21,8 @@
     End Sub
 
     Private Sub PrintDocument1_PrintPage(sender As Object, e As Printing.PrintPageEventArgs) Handles PrintDocument1.PrintPage
-        e.Graphics.DrawString("Shopping List", New Font("arial", 14, FontStyle.Regular, GraphicsUnit.Pixel), Brushes.Black, 25, 25)
-        e.Graphics.DrawString("______________", New Font("arial", 14, FontStyle.Regular, GraphicsUnit.Pixel), Brushes.Black, 25, 50)
-        e.Graphics.DrawString(txtBoxList.Text, New Font("arial", 14, FontStyle.Regular, GraphicsUnit.Pixel), Brushes.Black, 25, 75)
+        e.Graphics.DrawString("Shopping List", New Font("arial", 12, FontStyle.Regular, GraphicsUnit.Pixel), Brushes.Black, 25, 25)
+        e.Graphics.DrawString("______________", New Font("arial", 12, FontStyle.Regular, GraphicsUnit.Pixel), Brushes.Black, 25, 50)
+        e.Graphics.DrawString(txtBoxList.Text, New Font("arial", 12, FontStyle.Regular, GraphicsUnit.Pixel), Brushes.Black, 25, 75)
     End Sub
 End Class
